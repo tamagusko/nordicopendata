@@ -9,7 +9,7 @@
 (dev)  
 (specialist)
 
-## [Ideas](https://docs.google.com/document/d/1SXROwXuCmyMs7nAe11wzTM_n5GC3e6onLkdC8VgCNe4/edit?usp=sharing) [Code](https://colab.research.google.com/drive/1cNGhLChiD1VtABPkKrOdhOsSt6-JhbdL?usp=sharing) [Presentation](https://www.canva.com/design/DAE7J_kW5K0/share/preview?token=wQRIzJJreL9EMPh5PeBfOA&role=EDITOR&utm_content=DAE7J_kW5K0&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
+## [Ideas](https://docs.google.com/document/d/1SXROwXuCmyMs7nAe11wzTM_n5GC3e6onLkdC8VgCNe4/edit?usp=sharing) [Code](https://colab.research.google.com/drive/1cNGhLChiD1VtABPkKrOdhOsSt6-JhbdL?usp=sharing) [Presentation](https://www.canva.com/design/DAE7J_kW5K0/share/preview?token=wQRIzJJreL9EMPh5PeBfOA&role=EDITOR&utm_content=DAE7J_kW5K0&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton) [MVP]()
 
 ## Problem
 
