@@ -2,7 +2,7 @@
 
 ## Team:
 
-[Tiago Tamagusko](github.com/tamagusko)
+[Tiago Tamagusko](https://github.com/tamagusko)
 
 ## Problem
 
