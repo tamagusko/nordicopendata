@@ -2,7 +2,12 @@
 
 ## Team:
 
-[Tiago Tamagusko](https://github.com/tamagusko)
+[Tiago Tamagusko](https://github.com/tamagusko) (dev/specialist)  
+(project manager)  
+(designer)  
+(presenter)  
+(dev)  
+(specialist)
 
 ## [Ideas](https://docs.google.com/document/d/1SXROwXuCmyMs7nAe11wzTM_n5GC3e6onLkdC8VgCNe4/edit?usp=sharing)
 
