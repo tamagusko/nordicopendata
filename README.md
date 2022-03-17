@@ -4,7 +4,7 @@
 
 [Tiago Tamagusko](https://github.com/tamagusko) (backend dev/specialist)  
 [Matheus Soares](https://github.com/matheusgomesms) (specialist)  
-[Minh Anh Huynh](https://github.com/MarcX23) (full stack dev/speaker)
+[Minh Anh Huynh](https://github.com/MarcX23) (full stack dev/speaker)  
 (project manager)  
 (designer)  
 (speaker)  
