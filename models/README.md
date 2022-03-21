@@ -22,4 +22,4 @@ For the state-of-the-art model, we chose EfficientNetB1 because with the scale u
 - proof-of-concept: MobileNetV2
 - state-of-the-art: EfficientNetB1
 
-Finally, these models were trained with few images and little tuning. We believe that this performance can grow a lot with more real images and better fake images.
+Finally, these models were trained with few images and little tuning. We believe that this performance can improve with more images and better fake images.
