@@ -6,6 +6,10 @@
 
 # Folders to ignore
 /bkp/*
+/data/raw/*
+/docs/*
+/img/*
+
 # File too big 500mb
 /data/raw/weather/DK_dmi_march.csv
 
