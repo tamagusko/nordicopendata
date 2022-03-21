@@ -16,12 +16,12 @@ Identify vehicles that have slipped, veered off the road, or are on the wrong la
 
 ## Concept
 
-![Concept](https://github.com/tamagusko/nordicaiopendataimages/raw/main/img/concept.png)
+![Concept](https://github.com/tamagusko/nordicopendata/raw/main/img/concept.png)
 
 ## MVP
 [image2alarm.herokuapp.com/](https://image2alarm.herokuapp.com/) (base model: MobileNetV2)  
-![MVP](https://github.com/tamagusko/nordicaiopendataimages/raw/main/img/mvp.gif)  
-[Youtube](https://youtu.be/xKLlYaEs0Bc)
+![MVP](https://github.com/tamagusko/nordicopendata/raw/main/img/preview.gif)  
+[Youtube](https://youtu.be/zTe27sEVHdw)
 
 ---
 

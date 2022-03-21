@@ -1,3 +1,5 @@
+# Copyright (C) 2022 Tiago Tamagusko
+
 import os
 
 
