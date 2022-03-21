@@ -12,6 +12,7 @@
 
 # File too big 500mb
 /data/raw/weather/DK_dmi_march.csv
+/data/Guide_to_access_data.pdf
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
