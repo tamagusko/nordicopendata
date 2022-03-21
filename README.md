@@ -1,36 +1,27 @@
 # Nordic AI & Open Data Hackathon (18-19 of March 2022)
 
+### Intelligent Real-time Accident Warning System (IRAWS)
+
+The project uses transfer learning (base model: EfficientNetB1) with deep learning to train a model to detect unusual events (skids, vehicles off-street, and on the wrong lane). To this end, images from the cameras of the Nordic countries' highways provided in the dataset were used. The team generated fake images from these real ones to simulate the unusual events. The last layer of the base model (classes) was eliminated, and the model was retrained to identify roads with normal flow and unusual events.
+
 ## Team:
 
-[Tiago Tamagusko](https://github.com/tamagusko) (backend dev/specialist)  
-[Matheus Soares](https://github.com/matheusgomesms) (specialist)  
-[Minh Anh Huynh](https://github.com/MarcX23) (full stack dev/speaker)  
-(project manager)  
-(designer)  
-(speaker)  
-(dev)  
-(specialist)
-
-## [Ideas](https://docs.google.com/document/d/1SXROwXuCmyMs7nAe11wzTM_n5GC3e6onLkdC8VgCNe4/edit?usp=sharing) [Code](https://colab.research.google.com/drive/1cNGhLChiD1VtABPkKrOdhOsSt6-JhbdL?usp=sharing) [Presentation](https://www.canva.com/design/DAE7J_kW5K0/share/preview?token=wQRIzJJreL9EMPh5PeBfOA&role=EDITOR&utm_content=DAE7J_kW5K0&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton) [MVP](https://nordicaiopendata.herokuapp.com/)
+[Matheus Correia](https://github.com/matheusgomesms) (transportation specialist)  
+[Minh Anh Huynh](https://github.com/MarcX23) (backend dev/speaker)  
+[Tiago Tamagusko](https://github.com/tamagusko) (backend dev/transportation specialist)  
 
 ## Problem
 
-Problem description to solve.
+Identify vehicles that have slipped, veered off the road, or are on the wrong lane.
 
-## Proposed solution
+## Concept
 
-What did we do.
+![Concept](https://github.com/tamagusko/nordicaiopendataimages/raw/main/img/concept.png)
 
 ## MVP
-
-Link, video, mockup...
-
-## Highlights
-
-1. Relevance
-2. Impact
-3. Feasibility (technical)
-4. Scalability
+[image2alarm.herokuapp.com/](https://image2alarm.herokuapp.com/) (base model: MobileNetV2)  
+![MVP](https://github.com/tamagusko/nordicaiopendataimages/raw/main/img/mvp.gif)  
+[Youtube](https://youtu.be/xKLlYaEs0Bc)
 
 ---
 
