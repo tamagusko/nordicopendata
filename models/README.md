@@ -17,7 +17,7 @@ The first model developed was based on EfficientNetB7, which generated a model o
 
 Our second test was with EfficientNetB1, which yielded a 120MB model and ~64% accuracy. However, we would only be able to host one model for proof-of-concept with this model. In the end, we chose to use the MobileNetV2 model (~45MB trained) for the 500MB instance.
 
-For the state-of-the-art model, we chose MobileNetV2 because with the scale up to hundreds or thousands of cameras, a model of this type (lightweight and effective) can be a plus.
+For the state-of-the-art model, we chose EfficientNetB1 because with the scale up to hundreds or thousands of cameras, a model of this type (lightweight and effective) can be a plus.
 
 - proof-of-concept: MobileNetV2
 - state-of-the-art: EfficientNetB1
