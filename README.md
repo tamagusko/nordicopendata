@@ -21,7 +21,7 @@ Identify vehicles that have slipped, veered off the road, or are on the wrong la
 ## MVP
 [image2alarm.herokuapp.com/](https://image2alarm.herokuapp.com/) (base model: MobileNetV2)  
 ![MVP](https://github.com/tamagusko/nordicaiopendataimages/raw/main/img/mvp.gif)  
-[Youtube](https://youtu.be/xKLlYaEs0Bc)
+[Youtube](https://youtu.be/zTe27sEVHdw)
 
 ---
 
