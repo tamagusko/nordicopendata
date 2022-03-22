@@ -227,7 +227,7 @@ def main():
         print(f'Base model: {args.basemodel} \nCamera: {args.cam}\nImage size: {args.img}x{args.img}')
     if args.reports == "graph" or args.reports == "all":
         def plot_hist(hist):           
-            fig, ax = plt.subplots(1,2, figsize=(16,8))
+            fig, ax = plt.subplots(1,2, figsize=(10, 5))
             ax[0].plot(hist.history['loss'], color='b', label="Training")
             ax[0].plot(hist.history['val_loss'], color='r', label="Validation",axes =ax[0])
             ax[0].set_xlabel("Epoch")
@@ -238,6 +238,7 @@ def main():
             ax[1].set_xlabel("Epoch")
             ax[1].set_ylabel("Accuracy")
             legend = ax[1].legend(loc='best', shadow=True)
+            fig.suptitle(f'Training report: {CAMERA}_{args.basemodel}')
             fig.savefig(f'report_{CAMERA}_{args.basemodel}.png')
         
         
