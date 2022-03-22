@@ -7,10 +7,10 @@ Models: https://github.com/tamagusko/nordicopendata/tree/main/models
 Data: https://github.com/tamagusko/nordicopendata/tree/main/data
 
 Usage:
-    $ python path/to/train.py --basemodel MODEL --datapath "path/to/data" --cam COUNTRY_CAMERA --img SIZE --batch NUMBER --epoch NUMBER
+    $ python path/to/train.py --basemodel MODEL --datapath "path/to/data" --cam COUNTRY_CAMERA --img SIZE --batch NUMBER --epoch NUMBER --reports all/text/graph
 
 Example:
-    $ python train.py --basemodel 'MobileNetV2' --datapath "path/to/data" --cam 'FI_C0166000' --img 160 --batch 4 --epoch 100
+    $ python train.py --basemodel 'MobileNetV2' --datapath "path/to/data" --cam 'FI_C0166000' --img 160 --batch 4 --epoch 100 --reports all
 """
 
 import argparse
@@ -63,6 +63,11 @@ def main():
         type=int,
         default=200,
         help="Epoch number used to train the model")
+    parser.add_argument(
+        "-r", "--reports",
+        type=str,
+        default="text",
+        help="Model training reports: ['all', 'text', 'graph']")
     args = parser.parse_args()
 
     # Import base model
@@ -194,32 +199,50 @@ def main():
     
     # Load best model
     model = load_model(f'{CAMERA}_{args.basemodel}.h5')
-
+     
     # Reports
     train_score = model.evaluate(train_generator)
     val_score = model.evaluate(validation_generator)
     test_score = model.evaluate(test_generator)
-    print('===='*20)
-    print('Results:')
-    print('Train loss:', train_score[0])
-    print('Train accuracy:', train_score[1])
-    print('Val loss:', val_score[0])
-    print('Val accuracy:', val_score[1])
-    print('Test loss:', test_score[0])
-    print('Test accuracy:', test_score[1])
-    print('===='*20)
     Y_pred = model.predict(test_generator)
     y_pred = np.argmax(Y_pred, axis=1)
     target_names = classes
-    print('Confusion Matrix (TN, FP, FN, TP)')
-    print(confusion_matrix(test_generator.classes, y_pred))
-    print('===='*20)
-    print('Classification Report')
-    print(classification_report(test_generator.classes, y_pred, target_names=target_names))
-    print('===='*20)
-    print('Metadata')
-    print(f'Base model: {args.basemodel} \nCamera: {args.cam}\nImage size: {args.img}x{args.img}')
-    
-
+    if args.reports == "text" or args.reports == "all":
+        print('===='*20)
+        print('Results:')
+        print('Train loss:', train_score[0])
+        print('Train accuracy:', train_score[1])
+        print('Val loss:', val_score[0])
+        print('Val accuracy:', val_score[1])
+        print('Test loss:', test_score[0])
+        print('Test accuracy:', test_score[1])
+        print('===='*20)
+        print('Confusion Matrix (TN, FP, FN, TP)')
+        print(confusion_matrix(test_generator.classes, y_pred))
+        print('===='*20)
+        print('Classification Report')
+        print(classification_report(test_generator.classes, y_pred, target_names=target_names))
+        print('===='*20)
+        print('Metadata')
+        print(f'Base model: {args.basemodel} \nCamera: {args.cam}\nImage size: {args.img}x{args.img}')
+    if args.reports == "graph" or args.reports == "all":
+        def plot_hist(hist):           
+            fig, ax = plt.subplots(1,2, figsize=(16,8))
+            ax[0].plot(hist.history['loss'], color='b', label="Training")
+            ax[0].plot(hist.history['val_loss'], color='r', label="Validation",axes =ax[0])
+            ax[0].set_xlabel("Epoch")
+            ax[0].set_ylabel("Loss")
+            legend = ax[0].legend(loc='best', shadow=True)
+            ax[1].plot(hist.history['accuracy'], color='b', label="Training")
+            ax[1].plot(hist.history['val_accuracy'], color='r',label="Validation")
+            ax[1].set_xlabel("Epoch")
+            ax[1].set_ylabel("Accuracy")
+            legend = ax[1].legend(loc='best', shadow=True)
+            fig.savefig(f'report_{CAMERA}_{args.basemodel}.png')
+        
+        
+        plot_hist(history)
+        
+        
 if __name__ == "__main__":
     main()
