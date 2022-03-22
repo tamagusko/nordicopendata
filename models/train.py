@@ -7,10 +7,10 @@ Models: https://github.com/tamagusko/nordicopendata/tree/main/models
 Data: https://github.com/tamagusko/nordicopendata/tree/main/data
 
 Usage:
-    $ python path/to/train.py --basemodel MODEL --datapath "path/to/data" --cam COUNTRY_CAMERA --img SIZE
+    $ python path/to/train.py --basemodel MODEL --datapath "path/to/data" --cam COUNTRY_CAMERA --img SIZE --batch NUMBER --epoch NUMBER
 
 Example:
-    $ python train.py --basemodel 'MobileNetV2' --datapath "path/to/data/" --cam 'FI_C0166000' --img 160
+    $ python train.py --basemodel 'MobileNetV2' --datapath "path/to/data" --cam 'FI_C0166000' --img 160 --batch 4 --epoch 100
 """
 
 import argparse
@@ -34,30 +34,36 @@ def main():
         description="Train a custom model to detect unusual road events",
     )
     parser.add_argument(
-        "-b", "--basemodel",
+        "-m", "--basemodel",
         type=str,
         default='MobileNetV2',
-        required=True,
         help="Base model for transfer learning: ['MobileNetV2', 'EfficientNetB1', 'EfficientNetB7']")
     parser.add_argument(
         "-d", "--datapath",
         type=str,
-        default='data/',
         required=True,
         help="File path of data")
     parser.add_argument(
         "-c", "--cam",
         type=str,
-        required=True,
+        default='FI_C0166000',
         help="Camera to train the model")
     parser.add_argument(
         "-i", "--img",
         type=int,
         default=160,
-        required=True,
         help="Size of images to train the model, recommendation: ['MobileNetV2': 160, 'EfficientNetB1': 240, 'EfficientNetB7': 600]")
+    parser.add_argument(
+        "-b", "--batch",
+        type=int,
+        default=2,
+        help="Batch size used to train the model")
+    parser.add_argument(
+        "-e", "--epoch",
+        type=int,
+        default=200,
+        help="Epoch number used to train the model")
     args = parser.parse_args()
-    print(f'Base model: {args.basemodel} \nCamera: {args.cam}\nImage size: {args.img}x{args.img}')
 
     # Import base model
     # More on https://www.tensorflow.org/api_docs/python/tf/keras/applications
@@ -77,13 +83,14 @@ def main():
     DATAPATH = args.datapath
     CAMERA = args.cam
     IMAGESIZE = args.img
+    BATCH_SIZE = args.batch  # 1: stochastic
+    EPOCHS = args.epoch
 
     # Variables
     IMG_SHAPE = (IMAGESIZE, IMAGESIZE)
     TRAINING_DIR = DATAPATH + CAMERA + '/train'
     TEST_DIR = DATAPATH + CAMERA + '/test'
     SEED = 10
-    BATCH_SIZE = 2  # 1: stochastic
 
     # Create more images
     data_generator = ImageDataGenerator(
@@ -163,7 +170,7 @@ def main():
         loss='categorical_crossentropy',
         metrics=['accuracy'])
 
-    epochs = 200
+    epochs = EPOCHS
 
     # Saving the best model
     callbacks_list = [
@@ -212,7 +219,10 @@ def main():
     print('===='*20)
     print('Classification Report')
     print(classification_report(test_generator.classes, y_pred, target_names=target_names))
-
+    print('===='*20)
+    print('Metadata')
+    print(f'Base model: {args.basemodel} \nCamera: {args.cam}\nImage size: {args.img}x{args.img}')
+    
 
 if __name__ == "__main__":
     main()
