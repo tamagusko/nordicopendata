@@ -23,3 +23,13 @@ For the state-of-the-art model, we chose EfficientNetB1 because with the scale u
 - state-of-the-art: EfficientNetB1
 
 Finally, these models were trained with few images and little tuning. We believe that this performance can improve with more images and better fake images.
+
+## Train models
+
+Usage:  
+> $ python path/to/train.py --basemodel MODEL --datapath "path/to/data" --cam COUNTRY_CAMERA --img SIZE
+
+Example:  
+> $ python train.py --basemodel 'MobileNetV2' --datapath "path/to/data/" --cam 'FI_C0166000' --img 160
+
+

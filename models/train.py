@@ -10,7 +10,7 @@ Usage:
     $ python path/to/train.py --basemodel MODEL --datapath "path/to/data" --cam COUNTRY_CAMERA --img SIZE
 
 Example:
-    $ python train.py --basemodel 'MobileNetV2' --datapath "path/data/" --cam 'FI_C0166000' --img 160
+    $ python train.py --basemodel 'MobileNetV2' --datapath "path/to/data/" --cam 'FI_C0166000' --img 160
 """
 
 import argparse
@@ -85,7 +85,7 @@ def main():
     SEED = 10
     BATCH_SIZE = 2  # 1: stochastic
 
-    # ImageGenerator to create more images
+    # Create more images
     data_generator = ImageDataGenerator(
         validation_split=0.2,
         width_shift_range=0.2,
@@ -171,7 +171,7 @@ def main():
             filepath=f'{CAMERA}_{args.basemodel}.h5',
             monitor='val_loss',
             save_best_only=True,
-            verbose=1),  # we can use val_loss or val_loss
+            verbose=1),
         keras.callbacks.EarlyStopping(
             monitor='val_loss',
             # model will stop training if she doesn't improve (10 attempts)
@@ -190,6 +190,7 @@ def main():
     
     # Load best model
     model = load_model(f'{CAMERA}_{args.basemodel}.h5')
+
     # Reports
     train_score = model.evaluate(train_generator)
     val_score = model.evaluate(validation_generator)
@@ -203,7 +204,6 @@ def main():
     print('Test loss:', test_score[0])
     print('Test accuracy:', test_score[1])
     print('===='*20)
-    # confusion matrix and Report
     Y_pred = model.predict(test_generator)
     y_pred = np.argmax(Y_pred, axis=1)
     target_names = classes
