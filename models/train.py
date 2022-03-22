@@ -184,7 +184,7 @@ def main():
         keras.callbacks.EarlyStopping(
             monitor='val_loss',
             # model will stop training if she doesn't improve (10 attempts)
-            patience=10,
+            patience=20,
             verbose=1)
     ]
 
@@ -217,7 +217,7 @@ def main():
         print('Test loss:', test_score[0])
         print('Test accuracy:', test_score[1])
         print('===='*20)
-        print('Confusion Matrix (TN, FP, FN, TP)')
+        print('Confusion Matrix - TEST (TN, FP, FN, TP)')
         print(confusion_matrix(test_generator.classes, y_pred))
         print('===='*20)
         print('Classification Report')
