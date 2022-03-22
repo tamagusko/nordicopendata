@@ -10,18 +10,16 @@ The project uses transfer learning (base model: EfficientNetB1) with deep learni
 [Minh Anh Huynh](https://github.com/MarcX23) (backend dev/speaker)  
 [Tiago Tamagusko](https://github.com/tamagusko) (backend dev/transportation specialist)  
 
-## Problem
-
-Identify vehicles that have slipped, veered off the road, or are on the wrong lane.
-
 ## Concept
 
 ![Concept](https://github.com/tamagusko/nordicopendata/raw/main/img/concept.png)
 
 ## MVP
-[image2alarm.herokuapp.com/](https://image2alarm.herokuapp.com/) (base model: MobileNetV2)  
+### Site: [image2alarm.herokuapp.com/](https://image2alarm.herokuapp.com/) (base model: MobileNetV2)  
+
 ![MVP](https://github.com/tamagusko/nordicopendata/raw/main/img/preview.gif)  
-[Youtube](https://youtu.be/zTe27sEVHdw)
+
+### [Youtube](https://youtu.be/zTe27sEVHdw)
 
 ---
 
