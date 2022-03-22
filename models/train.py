@@ -84,7 +84,6 @@ def main():
     CAMERA = args.cam
     IMAGESIZE = args.img
     BATCH_SIZE = args.batch  # 1: stochastic
-    EPOCHS = args.epoch
 
     # Variables
     IMG_SHAPE = (IMAGESIZE, IMAGESIZE)
@@ -187,7 +186,7 @@ def main():
     history = model.fit(
         train_generator,
         steps_per_epoch=nb_train_samples // BATCH_SIZE,
-        epochs=EPOCHS,
+        epochs=args.epoch,
         callbacks=callbacks_list,
         validation_data=validation_generator,
         verbose=1,
