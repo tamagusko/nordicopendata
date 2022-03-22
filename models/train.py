@@ -22,6 +22,7 @@ from tensorflow.keras.models import Model
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.models import load_model
 from sklearn.metrics import classification_report, confusion_matrix
+from sklearn.metrics import matthews_corrcoef
 
 import numpy as np
 import random
@@ -184,7 +185,7 @@ def main():
         keras.callbacks.EarlyStopping(
             monitor='val_loss',
             # model will stop training if she doesn't improve (10 attempts)
-            patience=20,
+            patience=10,
             verbose=1)
     ]
 
@@ -206,6 +207,7 @@ def main():
     test_score = model.evaluate(test_generator)
     Y_pred = model.predict(test_generator)
     y_pred = np.argmax(Y_pred, axis=1)
+    mcc = matthews_corrcoef(test_generator.classes, y_pred)
     target_names = classes
     if args.reports == "text" or args.reports == "all":
         print('===='*20)
@@ -216,6 +218,7 @@ def main():
         print('Val accuracy:', val_score[1])
         print('Test loss:', test_score[0])
         print('Test accuracy:', test_score[1])
+        print('MCC:', mcc)
         print('===='*20)
         print('Confusion Matrix - TEST (TN, FP, FN, TP)')
         print(confusion_matrix(test_generator.classes, y_pred))
