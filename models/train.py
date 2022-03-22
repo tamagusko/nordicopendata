@@ -170,8 +170,6 @@ def main():
         loss='categorical_crossentropy',
         metrics=['accuracy'])
 
-    epochs = EPOCHS
-
     # Saving the best model
     callbacks_list = [
         keras.callbacks.ModelCheckpoint(
@@ -189,7 +187,7 @@ def main():
     history = model.fit(
         train_generator,
         steps_per_epoch=nb_train_samples // BATCH_SIZE,
-        epochs=epochs,
+        epochs=EPOCHS,
         callbacks=callbacks_list,
         validation_data=validation_generator,
         verbose=1,
