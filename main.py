@@ -1,5 +1,3 @@
-# Copyright (C) 2022 Tiago Tamagusko
-
 import numpy as np
 import streamlit as st
 from PIL import Image
@@ -8,8 +6,8 @@ from src.model_selector import models_available, availability, model_selector
 
 st.write("""
          # Intelligent Real-time Accident Warning System (IRAWS)
-         by [Tiago Tamagusko](https://www.linkedin.com/in/tamagusko/)
-
+         by [Tiago Tamagusko](https://www.linkedin.com/in/tamagusko/)  
+         
          ## MVP for Nordic AI & Open Data Hackathon
 
          """
@@ -40,3 +38,9 @@ else:
         st.warning('There is no trained model for this camera.')
         st.write(f'Available models: {models_available()}')
         st.write('Model name format: COUNTRY_CAMERA_BASEMODEL.h5')
+
+st.markdown(
+    """<a style='display: block; text-align: right;' href="https://github.com/tamagusko/nordicopendata/">Project repository</a>
+    """,
+    unsafe_allow_html=True,
+)
