@@ -28,11 +28,11 @@ else:
 
         if np.argmax(prediction) == 0:
             pred = (prediction[0][0] * 100).round(2)
-            st.success("Normal!")
+            st.error("Alarm!")
             st.write(f'Confidence: {pred}%')
         else:
             pred = (prediction[0][1] * 100).round(2)
-            st.error("Alarm!")
+            st.success("Normal!")
             st.write(f'Confidence: {pred}%')
     else:
         st.warning('There is no trained model for this camera.')
