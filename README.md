@@ -10,7 +10,7 @@ The project uses transfer learning (base model: EfficientNetB1) with deep learni
 [Minh Anh Huynh](https://github.com/MarcX23) (backend dev/speaker)  
 [Tiago Tamagusko](https://github.com/tamagusko) (backend dev/transportation specialist)  
 
-## Concept
+## Concept ([Pitch](https://www.youtube.com/watch?v=thCYkNci55o))
 
 ![Concept](https://github.com/tamagusko/nordicopendata/raw/main/img/concept.png)
 
@@ -20,6 +20,13 @@ The project uses transfer learning (base model: EfficientNetB1) with deep learni
 ![MVP](https://github.com/tamagusko/nordicopendata/raw/main/img/preview.gif)  
 
 ### [Youtube](https://youtu.be/zTe27sEVHdw)
+
+## How to use MVP
+
+Just drag and drop images from trained cameras: 
+
+- [FI_C0151303](https://github.com/tamagusko/nordicopendata/tree/main/data/FI_C0151303)
+- [FI_C0166000](https://github.com/tamagusko/nordicopendata/tree/main/data/FI_C0166000)
 
 ---
 
