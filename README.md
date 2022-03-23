@@ -19,8 +19,6 @@ The project uses transfer learning (base model: EfficientNetB1) with deep learni
 
 ![MVP](https://github.com/tamagusko/nordicopendata/raw/main/img/preview.gif)  
 
-### [Youtube](https://youtu.be/zTe27sEVHdw)
-
 ## How to use MVP
 
 Just drag and drop images from trained cameras: 
