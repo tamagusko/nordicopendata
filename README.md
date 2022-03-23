@@ -14,6 +14,9 @@ The project uses transfer learning (base model: EfficientNetB1) with deep learni
 
 ![Concept](https://github.com/tamagusko/nordicopendata/raw/main/img/concept.png)
 
+## Technical Detais
+You can see more details about the models [here.](https://github.com/tamagusko/nordicopendata/tree/main/models)
+
 ## MVP
 ### Site: [image2alarm.herokuapp.com/](https://image2alarm.herokuapp.com/) (base model: MobileNetV2)  
 
