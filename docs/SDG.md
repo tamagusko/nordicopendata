@@ -1,4 +1,4 @@
-# [SDG 9](https://sdgs.un.org/goals/goal9): Industry, Innovation, and Infrastructure: 
+# [SDG 9](https://sdgs.un.org/goals/goal9): Industry, Innovation, and Infrastructure:
 
 *Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation*
 
@@ -10,7 +10,7 @@ Questions:
 
 # [SDG 13](https://sdgs.un.org/goals/goal13): Climate Action:
 
-*Take urgent action to combat climate change and its impacts* 
+*Take urgent action to combat climate change and its impacts*
 
 1. (How) can road camera data improve traffic flows, prevent congestion and ensure a greener transportation sector?
 
@@ -21,6 +21,3 @@ Questions:
 
 1. (How) can road camera data contribute to improved road safety and better human health?
 2. (How) can road camera data monitor roadside ecosystems and their health?
-
-
-

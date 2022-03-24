@@ -6,9 +6,9 @@ The project uses transfer learning (base model: EfficientNetB1) with deep learni
 
 ## Team:
 
-[Matheus Correia](https://github.com/matheusgomesms) (transportation specialist)  
-[Minh Anh Huynh](https://github.com/MarcX23) (backend dev/speaker)  
-[Tiago Tamagusko](https://github.com/tamagusko) (backend dev/transportation specialist)  
+[Matheus Correia](https://github.com/matheusgomesms) (transportation specialist)
+[Minh Anh Huynh](https://github.com/MarcX23) (backend dev/speaker)
+[Tiago Tamagusko](https://github.com/tamagusko) (backend dev/transportation specialist)
 
 ## Concept ([Pitch](https://www.youtube.com/watch?v=thCYkNci55o))
 
@@ -18,13 +18,13 @@ The project uses transfer learning (base model: EfficientNetB1) with deep learni
 You can see more details about the models [here.](https://github.com/tamagusko/nordicopendata/tree/main/models)
 
 ## MVP
-### Site: [image2alarm.herokuapp.com/](https://image2alarm.herokuapp.com/) (base model: MobileNetV2)  
+### Site: [image2alarm.herokuapp.com/](https://image2alarm.herokuapp.com/) (base model: MobileNetV2)
 
-![MVP](https://github.com/tamagusko/nordicopendata/raw/main/img/preview.gif)  
+![MVP](https://github.com/tamagusko/nordicopendata/raw/main/img/preview.gif)
 
 ## How to use MVP
 
-Just drag and drop images from trained cameras: 
+Just drag and drop images from trained cameras:
 
 - [FI_C0151303](https://github.com/tamagusko/nordicopendata/tree/main/data/FI_C0151303)
 - [FI_C0166000](https://github.com/tamagusko/nordicopendata/tree/main/data/FI_C0166000)

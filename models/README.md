@@ -55,6 +55,3 @@ Finally, the training results for the MobileNetV2 model follow.
 3. Module: Tf.keras.applications: Tensorflow core v2.8.0. TensorFlow. Retrieved March 18, 2022, from https://www.tensorflow.org/api_docs/python/tf/keras/applications
 4. Keras Documentation: Transfer Learning Fine-tuning. Keras. Retrieved March 18, 2022, from https://keras.io/guides/transfer_learning/
 5. Transfer learning and fine-tuning: Tensorflow Core. TensorFlow. Retrieved March 19, 2022, from https://www.tensorflow.org/tutorials/images/transfer_learning
-
-
-
