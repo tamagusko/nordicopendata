@@ -6,8 +6,8 @@ The project uses transfer learning (base model: EfficientNetB1) with deep learni
 
 ## Team:
 
-[Matheus Correia](https://github.com/matheusgomesms) (transportation specialist)
-[Minh Anh Huynh](https://github.com/MarcX23) (backend dev/speaker)
+[Matheus Correia](https://github.com/matheusgomesms) (transportation specialist)  
+[Minh Anh Huynh](https://github.com/MarcX23) (backend dev/speaker)  
 [Tiago Tamagusko](https://github.com/tamagusko) (backend dev/transportation specialist)
 
 ## Concept ([Pitch](https://www.youtube.com/watch?v=thCYkNci55o))
