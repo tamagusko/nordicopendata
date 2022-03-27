@@ -5,9 +5,10 @@ repos:
     -   id: trailing-whitespace
         args: [--markdown-linebreak-ext=md]
     -   id: check-added-large-files
+        args: ['--maxkb=100000'] #  100MB
     -   id: check-case-conflict
     -   id: check-merge-conflict
-    -   id: end-of-file-fixer
+    # -   id: end-of-file-fixer
     -   id: check-docstring-first
     -   id: debug-statements
     -   id: check-yaml
