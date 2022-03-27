@@ -27,10 +27,10 @@ Finally, these models were trained with few images and little tuning. We believe
 ## Train models
 
 Usage:
-> $ python path/to/train.py --basemodel MODEL --datapath "path/to/data" --cam COUNTRY_CAMERA --img SIZE --batch NUMBER --epoch NUMBER --reports all/text/graph
+> $ python path/to/train.py --basemodel MODEL --datapath path/to/data --cam COUNTRY_CAMERA --img SIZE --batch NUMBER --epoch NUMBER --reports all/text/graph
 
 Example:
-> $ python train.py --basemodel 'MobileNetV2' --datapath "path/to/data" --cam 'FI_C0166000' --img 160 --batch 4 --epoch 100 --reports all
+> $ python train.py --basemodel MobileNetV2 --datapath path/to/data --cam FI_C0166000 --img 160 --batch 4 --epoch 100 --reports all
 
 ## Trained models
 
