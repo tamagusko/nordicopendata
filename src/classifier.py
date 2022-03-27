@@ -1,9 +1,10 @@
 # Copyright (C) 2022 Tiago Tamagusko
+from __future__ import annotations
 
 import numpy as np
 import streamlit as st
-from tensorflow.keras.models import load_model
 from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
+from tensorflow.keras.models import load_model
 
 
 @st.cache(allow_output_mutation=True)

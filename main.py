@@ -1,19 +1,25 @@
+from __future__ import annotations
+
 import numpy as np
 import streamlit as st
 from PIL import Image
-from src.classifier import classifier
-from src.model_selector import models_available, availability, model_selector
 
-st.write("""
+from src.classifier import classifier
+from src.model_selector import availability
+from src.model_selector import model_selector
+from src.model_selector import models_available
+
+st.write(
+    """
          # Intelligent Real-time Accident Warning System (IRAWS)
-         by [Tiago Tamagusko](https://www.linkedin.com/in/tamagusko/)  
-         
+         by [Tiago Tamagusko](https://www.linkedin.com/in/tamagusko/)
+
          ## MVP for Nordic AI & Open Data Hackathon
 
-         """
-         )
+         """,
+)
 
-file = st.file_uploader("Please upload an image file", type=["jpg", "png"])
+file = st.file_uploader('Please upload an image file', type=['jpg', 'png'])
 
 if file is None:
     st.text("You haven't uploaded an image file")
@@ -28,11 +34,11 @@ else:
 
         if np.argmax(prediction) == 0:
             pred = (prediction[0][0] * 100).round(2)
-            st.error("Alarm!")
+            st.error('Alarm!')
             st.write(f'Confidence: {pred}%')
         else:
             pred = (prediction[0][1] * 100).round(2)
-            st.success("Normal!")
+            st.success('Normal!')
             st.write(f'Confidence: {pred}%')
     else:
         st.warning('There is no trained model for this camera.')

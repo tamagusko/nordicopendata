@@ -1,4 +1,5 @@
 # Copyright (C) 2022 Tiago Tamagusko
+from __future__ import annotations
 
 import os
 
