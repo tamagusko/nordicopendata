@@ -24,6 +24,7 @@ For the state-of-the-art model, we chose EfficientNetB1 because with the scale u
 
 Finally, these models were trained with few images and little tuning. We believe that this performance can improve with more images and better fake images.
 
+<!-- working on
 ## Train models
 
 Usage:
@@ -32,6 +33,7 @@ Usage:
 Example:
 > $ python train.py --basemodel MobileNetV2 --datapath path/to/data --cam FI_C0166000 --img 160 --batch 4 --epoch 100 --reports all
 
+-->
 ## Trained models
 
 We trained several models, among which the EfficientNetB1 and MobileNetV2 stood out for their performance x computational cost.
