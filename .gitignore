@@ -6,8 +6,13 @@
 
 # Folders to ignore
 /bkp/*
-# File too big 500mb
+# File too big +100mb
 /data/raw/weather/DK_dmi_march.csv
+/models/FI_C0166000_EfficientNetB1.h5
+/models/FI_C0151303_EfficientNetB1.h5
+
+# working on improvements
+/models/train.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
