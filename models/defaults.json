@@ -1,0 +1,8 @@
+{
+  "BASEMODEL": "MobileNetV2",
+  "CAMERA": "FI_C0166000",
+  "CAMERA_SIZE": 160,
+  "BATCH_SIZE": 2,
+  "EPOCHS": 200,
+  "REPORTS": "text"
+}
