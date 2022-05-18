@@ -12,7 +12,7 @@
 /models/FI_C0151303_EfficientNetB1.h5
 
 # working on improvements
-/models/train.py
+# /models/train.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
