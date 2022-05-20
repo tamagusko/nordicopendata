@@ -1,0 +1,583 @@
+[ {
+  "cameraId" : "C01660",
+  "cameraHistory" : [ {
+    "presetId" : "C0166000",
+    "presetHistory" : [ {
+      "lastModified" : "2022-05-20T01:17:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=cgW9k63dl5fAQSQKOKKOkv7oBrLXdsbi",
+      "sizeBytes" : 133907
+    }, {
+      "lastModified" : "2022-05-20T01:07:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=vrj2DtFvpkLawuvxGgg0opqniAFArb1m",
+      "sizeBytes" : 129136
+    }, {
+      "lastModified" : "2022-05-20T00:57:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=emOdgnty5H_e8OBPMSm.xIncSP91k8EB",
+      "sizeBytes" : 111219
+    }, {
+      "lastModified" : "2022-05-20T00:47:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=d7zpApqNIrKs1ihnGR0mWZktytqpzJ0q",
+      "sizeBytes" : 105937
+    }, {
+      "lastModified" : "2022-05-20T00:37:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=hCkFyqxk5QBdAWoWb35HM5h4HYFjSYqw",
+      "sizeBytes" : 113077
+    }, {
+      "lastModified" : "2022-05-20T00:27:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=3ytp37NUJLJhiwmXoDaHEn0hWIYSpLTS",
+      "sizeBytes" : 98607
+    }, {
+      "lastModified" : "2022-05-20T00:17:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=egMl1Mjbcx6sRuCjfCyA5tu.Ofp6e7c9",
+      "sizeBytes" : 98376
+    }, {
+      "lastModified" : "2022-05-20T00:07:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=Q8mg7Kl5O5rh.0Mwa8gPAnZFdKJP8gFZ",
+      "sizeBytes" : 96094
+    }, {
+      "lastModified" : "2022-05-19T23:57:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=vdejE2C3160e1ZHBcEjuA.ADXZuchJmq",
+      "sizeBytes" : 99749
+    }, {
+      "lastModified" : "2022-05-19T23:47:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=B0Y98mzaiwEMW.727gVaUILd7IChDCg1",
+      "sizeBytes" : 94008
+    }, {
+      "lastModified" : "2022-05-19T23:37:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=nGBzpGQ3z.Z9KWKfXXRQB9CpGQh.q5fI",
+      "sizeBytes" : 96440
+    }, {
+      "lastModified" : "2022-05-19T23:27:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=PQlNA02srr37GFnJoSAYrLeQz0p4Q1j.",
+      "sizeBytes" : 96337
+    }, {
+      "lastModified" : "2022-05-19T23:17:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=g5GMFUZtxzckWYRWn1sort62MNeEsx14",
+      "sizeBytes" : 97810
+    }, {
+      "lastModified" : "2022-05-19T23:07:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=f_iEn4drRQdfTw3fe18yeXOv3m7ZySTA",
+      "sizeBytes" : 97236
+    }, {
+      "lastModified" : "2022-05-19T22:57:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=oGpPqCaxHmnmiR8piO30Hg8lSqor_v28",
+      "sizeBytes" : 108434
+    }, {
+      "lastModified" : "2022-05-19T22:47:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=vwmHgt1j_BAQ9gQz6AYWckhIUV3m7XwI",
+      "sizeBytes" : 105751
+    }, {
+      "lastModified" : "2022-05-19T22:37:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=3mjHJXxKUV5FvNrpgm4n3Mw0W9rbF67K",
+      "sizeBytes" : 95680
+    }, {
+      "lastModified" : "2022-05-19T22:27:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=nEMn4DEUkMoOzGJS0lBAHk.xfVFrb12a",
+      "sizeBytes" : 97561
+    }, {
+      "lastModified" : "2022-05-19T22:17:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=e9wHn2G4KBp0.wHug.mU59gbgrw.xq0E",
+      "sizeBytes" : 96219
+    }, {
+      "lastModified" : "2022-05-19T22:07:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=3b4mAp0OTfaVPB_rSGe0XPOitlSIi4iO",
+      "sizeBytes" : 91356
+    }, {
+      "lastModified" : "2022-05-19T21:57:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=h0l9u5CmRarNS.l9GuTiOBuKhHJ.sEga",
+      "sizeBytes" : 91263
+    }, {
+      "lastModified" : "2022-05-19T21:47:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=iqzSdHVGKt.P4K82JQWMotiI9Nl6vEH5",
+      "sizeBytes" : 94869
+    }, {
+      "lastModified" : "2022-05-19T21:37:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=bn2tZgcA23JsaJAzmgRnGRg7hczAZVyc",
+      "sizeBytes" : 93363
+    }, {
+      "lastModified" : "2022-05-19T21:27:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=4O2zxC2L1BmD0RMOVlQ9o1Eg9Rhw7.YM",
+      "sizeBytes" : 101355
+    }, {
+      "lastModified" : "2022-05-19T21:17:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=RkfTlJ0_Qmf3cL8BKZNTDsexweuYuOGs",
+      "sizeBytes" : 91848
+    }, {
+      "lastModified" : "2022-05-19T21:07:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=mO6INjYamMpCppI9opiFGOZoxlWl099I",
+      "sizeBytes" : 95306
+    }, {
+      "lastModified" : "2022-05-19T20:57:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=XPdliYs0.YEQLCUtIK1efm7MQOrI1CuE",
+      "sizeBytes" : 92320
+    }, {
+      "lastModified" : "2022-05-19T20:47:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=nfBCfANPwnLvIW7SOke6x41kHnsyj9GQ",
+      "sizeBytes" : 94363
+    }, {
+      "lastModified" : "2022-05-19T20:37:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=NpEX5yYbEZEVU9H9d7RyglP4MnwCdwGU",
+      "sizeBytes" : 101952
+    }, {
+      "lastModified" : "2022-05-19T20:27:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=MgmawHQT7XVCbCBDS4FVjIrmEwIXTFtf",
+      "sizeBytes" : 108701
+    }, {
+      "lastModified" : "2022-05-19T20:17:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=yd9EhUpXi8uaHHryQQxdPmRK3YciUlDV",
+      "sizeBytes" : 106580
+    }, {
+      "lastModified" : "2022-05-19T20:07:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=WFrk0T5axG.sjCmRAyvIRATNVTt1QIUF",
+      "sizeBytes" : 95433
+    }, {
+      "lastModified" : "2022-05-19T19:57:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=DJ01cdClB5GZIyZEkI4KaGtiSGWnfPbg",
+      "sizeBytes" : 110995
+    }, {
+      "lastModified" : "2022-05-19T19:47:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=.wuEcCXKxaRxF0CNgk.GJXJUGulte9oP",
+      "sizeBytes" : 109816
+    }, {
+      "lastModified" : "2022-05-19T19:37:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=2KMozbFvip2CNwjWN1JWDdNo_FmYjycr",
+      "sizeBytes" : 118800
+    }, {
+      "lastModified" : "2022-05-19T19:27:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=6AxPZuN.f.V_DQ42Msm3gKrnDhrmnBHN",
+      "sizeBytes" : 132903
+    }, {
+      "lastModified" : "2022-05-19T19:17:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=NZ8rMMHetz0K9VDdVXYMdPjayk2A_YOU",
+      "sizeBytes" : 137351
+    }, {
+      "lastModified" : "2022-05-19T19:07:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=_8IRcUsd2JhM_SDiVehC9Rnn_.oePPaQ",
+      "sizeBytes" : 147045
+    }, {
+      "lastModified" : "2022-05-19T18:57:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=ExQwhzs5YIGueDYOjvHXkuo4103OWGug",
+      "sizeBytes" : 149870
+    }, {
+      "lastModified" : "2022-05-19T18:47:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=4M.aWur6VeWWfSxMbRHW.ivYEJQ5YIuK",
+      "sizeBytes" : 153687
+    }, {
+      "lastModified" : "2022-05-19T18:37:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=Fc4ZLzhZzyj4hhxNXn6BEtST.h2dWA5t",
+      "sizeBytes" : 156325
+    }, {
+      "lastModified" : "2022-05-19T18:27:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=qgsnadZUsgbWs1VN60iiQDQ4iG_Tbl5k",
+      "sizeBytes" : 155561
+    }, {
+      "lastModified" : "2022-05-19T18:17:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=vaJQkJzB.TQ1nyMtL3eJ_XNMyWJIeiHE",
+      "sizeBytes" : 153670
+    }, {
+      "lastModified" : "2022-05-19T18:07:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=CHUGHcq37LFWw8Dh0lCnZQthKrlFMYaF",
+      "sizeBytes" : 155684
+    }, {
+      "lastModified" : "2022-05-19T17:57:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=_5YlpRPQX6V6IBQE0hiMvzxS5sXNN3pn",
+      "sizeBytes" : 153734
+    }, {
+      "lastModified" : "2022-05-19T17:47:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=0m2xVOau2MCTvTvgsjnK_LRrW_jDZxZx",
+      "sizeBytes" : 153744
+    }, {
+      "lastModified" : "2022-05-19T17:37:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=sbMJBKjNAZOE62OJL0phBhm0AW4WSKOH",
+      "sizeBytes" : 156517
+    }, {
+      "lastModified" : "2022-05-19T17:27:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=yB9VDh1waIAahVaYrG8l7TR8ItH0H1_A",
+      "sizeBytes" : 154885
+    }, {
+      "lastModified" : "2022-05-19T17:17:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=E2AXNk9YC2zfqN9L6mJfPMx6Y7dX8OKd",
+      "sizeBytes" : 157464
+    }, {
+      "lastModified" : "2022-05-19T17:07:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=u1V90Bw17OwV5QnIrsVXMvGeMXsCVD3R",
+      "sizeBytes" : 152868
+    }, {
+      "lastModified" : "2022-05-19T16:57:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=m96HwqL4HvDEM8xWiN54Oi71oZVB3qY3",
+      "sizeBytes" : 155634
+    }, {
+      "lastModified" : "2022-05-19T16:47:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=ROycP4nWQpuXulHm4jYHp3U7x6cG6KDN",
+      "sizeBytes" : 158187
+    }, {
+      "lastModified" : "2022-05-19T16:37:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=J0nSVSlHGSMpGOkomjXdlVpJ.kdyV9mJ",
+      "sizeBytes" : 157723
+    }, {
+      "lastModified" : "2022-05-19T16:27:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=Uu4ONaCMipLGDdr5H7jvZDZecY1wzhqT",
+      "sizeBytes" : 158467
+    }, {
+      "lastModified" : "2022-05-19T16:17:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=7aYtfB0pHuzqSdufXrRSq0CUI.VTPebn",
+      "sizeBytes" : 161524
+    }, {
+      "lastModified" : "2022-05-19T16:07:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=jihM3.aXm0.3qJXC8xGKyR9.qhcqshSK",
+      "sizeBytes" : 164149
+    }, {
+      "lastModified" : "2022-05-19T15:57:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=7x8YgohM645msjv7MVoi1ttBPq5fAXV6",
+      "sizeBytes" : 164215
+    }, {
+      "lastModified" : "2022-05-19T15:47:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=GDfhd366OSfLiUsDQ9g9abqXxQdB4VFC",
+      "sizeBytes" : 167016
+    }, {
+      "lastModified" : "2022-05-19T15:37:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=o69LkUiImOf1eLcapc8FWrBr_2_kOQpp",
+      "sizeBytes" : 161534
+    }, {
+      "lastModified" : "2022-05-19T15:27:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=jHCPIfa8_lxlhl8n4NrsAAQIOBJTiA.D",
+      "sizeBytes" : 160118
+    }, {
+      "lastModified" : "2022-05-19T15:17:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=GYDsjDhTDyToL9JwqekZUfdUt15eppXr",
+      "sizeBytes" : 169827
+    }, {
+      "lastModified" : "2022-05-19T15:07:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=8nZf.eCEQdi.TjGkDJnI43kjqxRqibYN",
+      "sizeBytes" : 161469
+    }, {
+      "lastModified" : "2022-05-19T14:57:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=bDcpKTEdN2kefE9j1S_Pakneb1ce.hoF",
+      "sizeBytes" : 152004
+    }, {
+      "lastModified" : "2022-05-19T14:47:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=2KkLgbZjXsQGQwTa0qCbOMC04opG3Orq",
+      "sizeBytes" : 153183
+    }, {
+      "lastModified" : "2022-05-19T14:37:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=P3pq.7Bm46B_sTlYfr7WHaMnk6fzvCan",
+      "sizeBytes" : 153891
+    }, {
+      "lastModified" : "2022-05-19T14:27:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=5LIUUH_mi9qrntoengAAwrweDnJwq7qy",
+      "sizeBytes" : 156483
+    }, {
+      "lastModified" : "2022-05-19T14:17:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=DKwa_ztFpcKPtfv8LvKVUb40fYCpRBmJ",
+      "sizeBytes" : 156622
+    }, {
+      "lastModified" : "2022-05-19T14:07:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=Rk0ZJK93n8g7UWrzewOBbHR2fd5WXhhC",
+      "sizeBytes" : 157023
+    }, {
+      "lastModified" : "2022-05-19T13:57:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=wvQ5_ty3MfKGQ.ha7SHokHAlmMczoeie",
+      "sizeBytes" : 155972
+    }, {
+      "lastModified" : "2022-05-19T13:47:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=VcbW.mkIOvlhO8Rtkzyyk9LMiIfjGmqD",
+      "sizeBytes" : 155407
+    }, {
+      "lastModified" : "2022-05-19T13:37:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=2VL4exPpNZjYXPbQbmK1o_91arO9Gxsj",
+      "sizeBytes" : 156863
+    }, {
+      "lastModified" : "2022-05-19T13:27:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=oX8qIePQNN.fUp0pnwhZ7wwDbPDXJg.9",
+      "sizeBytes" : 155117
+    }, {
+      "lastModified" : "2022-05-19T13:17:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=rcaUpvykqlZoI3fin0EthUXHn7MLcLPN",
+      "sizeBytes" : 155377
+    }, {
+      "lastModified" : "2022-05-19T13:07:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=NoMdAKdjLcdX5oD9FvQSXDSIG_7_nCu8",
+      "sizeBytes" : 157724
+    }, {
+      "lastModified" : "2022-05-19T12:57:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=02fix_0upJi4SSj_t1K1F.oJsLmuub3x",
+      "sizeBytes" : 158883
+    }, {
+      "lastModified" : "2022-05-19T12:47:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=jV4xfLqsFQ1bkVF5m.depE3jPEK9Z6uu",
+      "sizeBytes" : 157831
+    }, {
+      "lastModified" : "2022-05-19T12:37:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=CPwXpbpd33T_Rs4NHH_hH4fY7JQiZgJn",
+      "sizeBytes" : 156144
+    }, {
+      "lastModified" : "2022-05-19T12:27:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=BxhcTqTCf3eSox5T2Q3AH3sd7bywRM54",
+      "sizeBytes" : 156832
+    }, {
+      "lastModified" : "2022-05-19T12:17:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=FllXyL0R8HK7L_DQRF9D9HQ6NFTL4vfp",
+      "sizeBytes" : 158407
+    }, {
+      "lastModified" : "2022-05-19T12:07:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=_VDzDk69j8fROKFN6kbbB38eMBu5a7zr",
+      "sizeBytes" : 157080
+    }, {
+      "lastModified" : "2022-05-19T11:57:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=UqQJCEaY8EkaoARlOY.nG3Jwe4723M4a",
+      "sizeBytes" : 155698
+    }, {
+      "lastModified" : "2022-05-19T11:47:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=UeJoQkc0qq5yVlxyjbjl8g3M8oHMvVwv",
+      "sizeBytes" : 157329
+    }, {
+      "lastModified" : "2022-05-19T11:37:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=2dUd2lO_ohpdwa6dCk9nMRbr04zUnrrI",
+      "sizeBytes" : 156477
+    }, {
+      "lastModified" : "2022-05-19T11:27:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=drMmDBGziw8a1lKQ4J832YF3kK4QUe_2",
+      "sizeBytes" : 156849
+    }, {
+      "lastModified" : "2022-05-19T11:17:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=T_3NpG6V0EQdUa3ObIzqG2liqMXS72kq",
+      "sizeBytes" : 157150
+    }, {
+      "lastModified" : "2022-05-19T11:07:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=f507goKx.lcKi5xY60yA9NgCzTPcgZn5",
+      "sizeBytes" : 157219
+    }, {
+      "lastModified" : "2022-05-19T10:57:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=ExZ70wEUb6ydqttJzMRb76HPBFTl5LPf",
+      "sizeBytes" : 155535
+    }, {
+      "lastModified" : "2022-05-19T10:47:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=eM293Vw_fjR4PVOMt0HmLYtQWRe04RXT",
+      "sizeBytes" : 154586
+    }, {
+      "lastModified" : "2022-05-19T10:37:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=VQdZSe7X7t9mNjyBaS4MJlQpGYvtLI19",
+      "sizeBytes" : 159382
+    }, {
+      "lastModified" : "2022-05-19T10:27:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=NGlqjudi7tPPzAYfp1VPYm1mRIkR0Ng6",
+      "sizeBytes" : 157173
+    }, {
+      "lastModified" : "2022-05-19T10:17:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=1JtefVZIhoj3WK4n0YOjz.0j0FPgIC1u",
+      "sizeBytes" : 155133
+    }, {
+      "lastModified" : "2022-05-19T10:07:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=Mn1bhyQ8KmytNko3uUrQzp8Ky4RVK0vz",
+      "sizeBytes" : 158927
+    }, {
+      "lastModified" : "2022-05-19T09:57:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=76E2paux2gxlmO0S6VpQlC5PluJr8Itc",
+      "sizeBytes" : 157347
+    }, {
+      "lastModified" : "2022-05-19T09:47:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=4YjOWMvBJmVrn0OlFpOlhbybbdRi7z9m",
+      "sizeBytes" : 157070
+    }, {
+      "lastModified" : "2022-05-19T09:37:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=0L2wK2SPhm7oAW44RWm5nnCzOanh1HYg",
+      "sizeBytes" : 160468
+    }, {
+      "lastModified" : "2022-05-19T09:27:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=OqRow.zX78IxgMNQ8p4viff.Dr2oDsMv",
+      "sizeBytes" : 157411
+    }, {
+      "lastModified" : "2022-05-19T09:17:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=SzTNZPwm7jpwaFRn_UNo.nXKyd3xAQTp",
+      "sizeBytes" : 159320
+    }, {
+      "lastModified" : "2022-05-19T09:07:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=D_3EFo1XeLuCbc7m8dNcXgRJ1NbqNVbj",
+      "sizeBytes" : 158671
+    }, {
+      "lastModified" : "2022-05-19T08:57:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=mvF7Ne0QFQyKcfbNImloB99M2i8dpIuC",
+      "sizeBytes" : 158774
+    }, {
+      "lastModified" : "2022-05-19T08:47:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=Nhx8PMHLTbsfhYqqzVCSx455tnoUsaYq",
+      "sizeBytes" : 160743
+    }, {
+      "lastModified" : "2022-05-19T08:37:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=d1RaymBVMx.KNH8mj32_5L0gMkFbaDkx",
+      "sizeBytes" : 156882
+    }, {
+      "lastModified" : "2022-05-19T08:27:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=n11TUnXtiJFCJhSC9HIXpV0CHVWrdlha",
+      "sizeBytes" : 158188
+    }, {
+      "lastModified" : "2022-05-19T08:17:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=mR7hDYU9RrJrOSgFVvWda10TFexRffNB",
+      "sizeBytes" : 163725
+    }, {
+      "lastModified" : "2022-05-19T08:07:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=xImgnhiRCIfbzO8cW9FlJrJvR5Ayy7tm",
+      "sizeBytes" : 163538
+    }, {
+      "lastModified" : "2022-05-19T07:57:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=6SYJduXjpSa05J_YrLbDY8ig2bfwKyBy",
+      "sizeBytes" : 156671
+    }, {
+      "lastModified" : "2022-05-19T07:47:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=3Q_brsTPJZadZH5c7IuHSHH1Lls1fWWl",
+      "sizeBytes" : 160575
+    }, {
+      "lastModified" : "2022-05-19T07:37:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=ah6egFQODYjhatjI99BCkF2ebSYS7tvT",
+      "sizeBytes" : 160641
+    }, {
+      "lastModified" : "2022-05-19T07:27:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=mV_4PVeDFNOcrw7f3Kd_8oyRnZMUQtAj",
+      "sizeBytes" : 155014
+    }, {
+      "lastModified" : "2022-05-19T07:17:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=aV_M7ylJ3UjIMbeXL.2t6sctHEIJN6qF",
+      "sizeBytes" : 152866
+    }, {
+      "lastModified" : "2022-05-19T07:07:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=22L5jmUcyY7gFyJdJu1oV7q0vVVJKcsQ",
+      "sizeBytes" : 155297
+    }, {
+      "lastModified" : "2022-05-19T06:57:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=KVUQ_p6yIh0M1cNUfk8L1yUX1NASDxyq",
+      "sizeBytes" : 156651
+    }, {
+      "lastModified" : "2022-05-19T06:47:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=tbNx6dZQmHlzoDqVcA2JyrMJN76RKAd2",
+      "sizeBytes" : 157397
+    }, {
+      "lastModified" : "2022-05-19T06:37:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=K7pxeurhqJ67VmP5GSE9jIQmf37X8BBy",
+      "sizeBytes" : 159876
+    }, {
+      "lastModified" : "2022-05-19T06:27:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=9qhkbQuJMHyWyp6S.kKqkdNpZfoyeqFF",
+      "sizeBytes" : 156954
+    }, {
+      "lastModified" : "2022-05-19T06:17:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=IXICKmpY47H1KouYKadEsYQaPht8lOxJ",
+      "sizeBytes" : 156441
+    }, {
+      "lastModified" : "2022-05-19T06:07:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=q0BrabSyV2tkx9XiUGCgTcdYrMRstRgN",
+      "sizeBytes" : 156909
+    }, {
+      "lastModified" : "2022-05-19T05:57:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=o_2Bp6dMP_Q2JsZ6eS9HQkxP1YvAhiGY",
+      "sizeBytes" : 154446
+    }, {
+      "lastModified" : "2022-05-19T05:47:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=f5NSKVJtiCZB0VyGnQG91q5qLjVbSRhl",
+      "sizeBytes" : 156113
+    }, {
+      "lastModified" : "2022-05-19T05:37:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=d1J4Pe_nHGkeP62.T_mTFr6bBYL9y2Lx",
+      "sizeBytes" : 158258
+    }, {
+      "lastModified" : "2022-05-19T05:27:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=2XF58SEEQ7IM0s76YjFNVJLBDD0WxGRB",
+      "sizeBytes" : 158847
+    }, {
+      "lastModified" : "2022-05-19T05:17:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=ZzSFCSmHiyoqoEqVskdL5_htlolDjDYf",
+      "sizeBytes" : 158348
+    }, {
+      "lastModified" : "2022-05-19T05:07:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=zwBAcbCwzXJVgy2n3shl1lXt1Ns6SfHE",
+      "sizeBytes" : 156795
+    }, {
+      "lastModified" : "2022-05-19T04:57:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=PtVdMnnSyDmaKCq5dZ.3sic_lTUuatW2",
+      "sizeBytes" : 159041
+    }, {
+      "lastModified" : "2022-05-19T04:47:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=IgydjJrKY_pWFrEMePkTxWZWPGzjLJZ1",
+      "sizeBytes" : 159343
+    }, {
+      "lastModified" : "2022-05-19T04:37:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=LE1qZwPGA0KMqsvO.fH3YnVOwRv4633Q",
+      "sizeBytes" : 159724
+    }, {
+      "lastModified" : "2022-05-19T04:27:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=Sc2AdgIzgah2ACggLJaNU50PlzgKGgVB",
+      "sizeBytes" : 157860
+    }, {
+      "lastModified" : "2022-05-19T04:17:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=fAf4QjGUsshY5cpguLPUAyeIuJfAJSkM",
+      "sizeBytes" : 155803
+    }, {
+      "lastModified" : "2022-05-19T04:07:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=9jnah494587nhY9Nc.tnKNG2sSE2sFdF",
+      "sizeBytes" : 158848
+    }, {
+      "lastModified" : "2022-05-19T03:57:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=91LHj9PYUtywdrINJYpDRVsIL8G4l5hL",
+      "sizeBytes" : 152100
+    }, {
+      "lastModified" : "2022-05-19T03:47:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=ibmn2K9HkQUX3u526HftAGiHRTkceTgs",
+      "sizeBytes" : 155974
+    }, {
+      "lastModified" : "2022-05-19T03:37:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=QOIeCR0WpFlEyEfEoLEaSD0yUTZDqbeY",
+      "sizeBytes" : 157038
+    }, {
+      "lastModified" : "2022-05-19T03:27:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=y1kcaY4Snnte3PTA3BvURTjywpEFgOjr",
+      "sizeBytes" : 155021
+    }, {
+      "lastModified" : "2022-05-19T03:17:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=2M.tprCJwYKf.Bbb3wzOETMFAFBu7feu",
+      "sizeBytes" : 154881
+    }, {
+      "lastModified" : "2022-05-19T03:07:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=owQEJDW4ulvT8sInisfAmQ95BdoEL2FA",
+      "sizeBytes" : 156135
+    }, {
+      "lastModified" : "2022-05-19T02:57:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=gfgO9MuYi.t330sKvXeIDUWKGgy2JJvG",
+      "sizeBytes" : 154622
+    }, {
+      "lastModified" : "2022-05-19T02:47:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=MmSXsgfvFegRMIHeELGM0Om8BGF6BJsq",
+      "sizeBytes" : 155045
+    }, {
+      "lastModified" : "2022-05-19T02:37:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=CcPwufV_tlYLQ9_lwmcikFnWjpVaFyCI",
+      "sizeBytes" : 158224
+    }, {
+      "lastModified" : "2022-05-19T02:27:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=Kzn5Qv6h2FrG1sDyXm0oMd6.JpJp_TRI",
+      "sizeBytes" : 157574
+    }, {
+      "lastModified" : "2022-05-19T02:17:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=1T1n6VyiTwPuz6NTB2Qf81wdg_uH8Tvf",
+      "sizeBytes" : 157304
+    }, {
+      "lastModified" : "2022-05-19T02:07:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=dGZmoIgoBf4MUbpPaHBNq4TtK4yplf.F",
+      "sizeBytes" : 157218
+    }, {
+      "lastModified" : "2022-05-19T01:57:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=6h4scn6DWuNMlgplc4tgm.VXhxPvXgnB",
+      "sizeBytes" : 155558
+    }, {
+      "lastModified" : "2022-05-19T01:47:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=eIvTZB7UMN0kaoVMs_OYx0PJpMBqp8eE",
+      "sizeBytes" : 155862
+    }, {
+      "lastModified" : "2022-05-19T01:37:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=HeUTI7LBXzlR0qexVazMjRMeiRyFdQBO",
+      "sizeBytes" : 153186
+    }, {
+      "lastModified" : "2022-05-19T01:27:15Z",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0166000.jpg?versionId=5b0kWDvuCIy.5rTb_L9UrQJZ_CF8LRo2",
+      "sizeBytes" : 132167
+    } ]
+  } ]
+} ]

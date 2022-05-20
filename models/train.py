@@ -209,7 +209,7 @@ def main():
         keras.callbacks.EarlyStopping(
             monitor='val_loss',
             # model will stop training if she doesn't improve (10 attempts)
-            patience=10,
+            patience=100,
             verbose=1,
         ),
     ]
