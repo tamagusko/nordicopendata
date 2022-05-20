@@ -209,7 +209,7 @@ def main():
         keras.callbacks.EarlyStopping(
             monitor='val_loss',
             # model will stop training if she doesn't improve (10 attempts)
-            patience=100,
+            patience=10,
             verbose=1,
         ),
     ]
@@ -271,7 +271,7 @@ def main():
             )
             ax[0].set_xlabel('Epoch')
             ax[0].set_ylabel('Loss')
-            # legend = ax[0].legend(loc='best', shadow=True)
+            ax[0].legend(loc='best', shadow=True)
             ax[1].plot(hist.history['accuracy'], color='b', label='Training')
             ax[1].plot(
                 hist.history['val_accuracy'],
@@ -279,7 +279,7 @@ def main():
             )
             ax[1].set_xlabel('Epoch')
             ax[1].set_ylabel('Accuracy')
-            # legend = ax[1].legend(loc='best', shadow=True)
+            ax[1].legend(loc='best', shadow=True)
             fig.suptitle(f'Training report: {CAMERA}_{args.basemodel}')
             fig.savefig(f'report_{CAMERA}_{args.basemodel}.png')
 
