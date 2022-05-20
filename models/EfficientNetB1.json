@@ -1,8 +1,0 @@
-{
-  "BASEMODEL": "EfficientNetB1",
-  "CAMERA": "FI_C0166000",
-  "CAMERA_SIZE": 240,
-  "BATCH_SIZE": 4,
-  "EPOCHS": 300,
-  "REPORTS": "all"
-}

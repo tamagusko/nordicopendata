@@ -259,7 +259,7 @@ def main():
         print('====' * 20)
         print('Metadata')
         print(
-            f'Base model: {args.basemodel} \nCamera: {args.cam}\nImage size: {args.img}x{args.img}',
+            f'Base model: {args.basemodel} \nCamera: {args.cam}\nImage size: {args.img}x{args.img}\nBatch: {args.batch}',
         )
     if args.reports == 'graph' or args.reports == 'all':
         def plot_hist(hist):
