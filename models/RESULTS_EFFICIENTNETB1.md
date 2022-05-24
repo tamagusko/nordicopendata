@@ -1,32 +1,42 @@
-# Results:
+Using: 
 
-Train loss: 0.3028409481048584
-Train accuracy: 0.9090909361839294
-Val loss: 0.2622383236885071
-Val accuracy: 0.90625
-Test loss: 0.43326535820961
+Python version: 3.8.13 (default, Apr 18 2022, 15:15:58) 
+[GCC 11.2.0]
+TensorFlow version: 2.8.0
+tf.keras version: 2.8.0
+================================================================================
+================================================================================
+Results: 
+
+Train loss: 0.22786952555179596
+Train accuracy: 0.8787878751754761
+Val loss: 0.20868703722953796
+Val accuracy: 0.9375
+Test loss: 0.42413902282714844
 Test accuracy: 0.8833333253860474
-MCC: 0.7705289916987292
+MCC: 0.7775419143502352
 ================================================================================
 Confusion Matrix - TEST (TN, FP, FN, TP)
-[[25  5]
- [ 2 28]]
+[[24  6]
+ [ 1 29]]
 ================================================================================
-Classification Report
+Classification Report 
+
               precision    recall  f1-score   support
 
-       alarm       0.93      0.83      0.88        30
-      normal       0.85      0.93      0.89        30
+       alarm       0.96      0.80      0.87        30
+      normal       0.83      0.97      0.89        30
 
     accuracy                           0.88        60
    macro avg       0.89      0.88      0.88        60
 weighted avg       0.89      0.88      0.88        60
 
 ================================================================================
-Metadata
-BEST EPOCH: 12
-Base model: EfficientNetB1
+Metadata: 
+
+Base model: EfficientNetB1 
 Camera: FI_C0166000
 Image size: 240x240
 Batch: 32
-python train.py --basemodel EfficientNetB1 --datapath  --cam FI_C0166000 --im  58,14s user 1,85s system 108% cpu 55,220 total
+Best Epoch: 26
+Time to train: 72s
