@@ -16,9 +16,11 @@ from __future__ import annotations
 
 import argparse
 import json
+import sys
 
 import matplotlib.pyplot as plt
 import numpy as np
+import tensorflow as tf
 from sklearn.metrics import classification_report
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import matthews_corrcoef
@@ -236,8 +238,16 @@ def main():
     mcc = matthews_corrcoef(test_generator.classes, y_pred)
     target_names = classes
     if args.reports == 'text' or args.reports == 'all':
+        # print(model.summary())  # print CNN summary
+        # Show env
         print('====' * 20)
-        print('Results:')
+        print('Using: \n')
+        print('Python version:', sys.version)
+        print('TensorFlow version:', tf.__version__)
+        print('tf.keras version:', tf.keras.__version__)
+        print('====' * 20)
+        print('====' * 20)
+        print('Results: \n')
         print('Train loss:', train_score[0])
         print('Train accuracy:', train_score[1])
         print('Val loss:', val_score[0])
@@ -249,7 +259,7 @@ def main():
         print('Confusion Matrix - TEST (TN, FP, FN, TP)')
         print(confusion_matrix(test_generator.classes, y_pred))
         print('====' * 20)
-        print('Classification Report')
+        print('Classification Report \n')
         print(
             classification_report(
                 test_generator.classes,
@@ -257,7 +267,7 @@ def main():
             ),
         )
         print('====' * 20)
-        print('Metadata')
+        print('Metadata: \n')
         print(
             f'Base model: {args.basemodel} \nCamera: {args.cam}\nImage size: {args.img}x{args.img}\nBatch: {args.batch}',
         )
