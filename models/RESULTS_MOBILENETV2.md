@@ -1,12 +1,12 @@
-Using: 
+Using:
 
-Python version: 3.8.13 (default, Apr 18 2022, 15:15:58) 
+Python version: 3.8.13 (default, Apr 18 2022, 15:15:58)
 [GCC 11.2.0]
 TensorFlow version: 2.8.0
 tf.keras version: 2.8.0
 ================================================================================
 ================================================================================
-Results: 
+Results:
 
 Train loss: 0.32010889053344727
 Train accuracy: 0.8636363744735718
@@ -20,7 +20,7 @@ Confusion Matrix - TEST (TN, FP, FN, TP)
 [[19 11]
  [ 0 30]]
 ================================================================================
-Classification Report 
+Classification Report
 
               precision    recall  f1-score   support
 
@@ -32,12 +32,11 @@ Classification Report
 weighted avg       0.87      0.82      0.81        60
 
 ================================================================================
-Metadata: 
+Metadata:
 
-Base model: MobileNetV2 
+Base model: MobileNetV2
 Camera: FI_C0166000
 Image size: 160x160
 Batch: 32
 Best Epoch: 17
 Time to train: 38s
-

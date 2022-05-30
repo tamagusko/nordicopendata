@@ -1,4 +1,4 @@
-# Deep Learning applied to Road Accident Detection with Transfer Learning and Synthetic Images (conference paper) 
+# Deep Learning applied to Road Accident Detection with Transfer Learning and Synthetic Images (conference paper)
 
 <!-- Published paper: https://doi.org/DOI -->
 

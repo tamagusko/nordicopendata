@@ -1,12 +1,12 @@
-Using: 
+Using:
 
-Python version: 3.8.13 (default, Apr 18 2022, 15:15:58) 
+Python version: 3.8.13 (default, Apr 18 2022, 15:15:58)
 [GCC 11.2.0]
 TensorFlow version: 2.8.0
 tf.keras version: 2.8.0
 ================================================================================
 ================================================================================
-Results: 
+Results:
 
 Train loss: 0.22786952555179596
 Train accuracy: 0.8787878751754761
@@ -20,7 +20,7 @@ Confusion Matrix - TEST (TN, FP, FN, TP)
 [[24  6]
  [ 1 29]]
 ================================================================================
-Classification Report 
+Classification Report
 
               precision    recall  f1-score   support
 
@@ -32,9 +32,9 @@ Classification Report
 weighted avg       0.89      0.88      0.88        60
 
 ================================================================================
-Metadata: 
+Metadata:
 
-Base model: EfficientNetB1 
+Base model: EfficientNetB1
 Camera: FI_C0166000
 Image size: 240x240
 Batch: 32
